@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/resultUpper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+
+
+        android:maxLines="1"
+        android:maxWidth="@android:dimen/app_icon_size"
+        android:textAlignment="textEnd"
+        android:textEditSidePasteWindowLayout="@android:layout/expandable_list_content"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/resultLower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+
+        android:maxLines="1"
+        android:maxWidth="?attr/actionBarSize"
+        android:textAlignment="textEnd"
+        android:textSize="50sp" />
+
+</LinearLayout>
