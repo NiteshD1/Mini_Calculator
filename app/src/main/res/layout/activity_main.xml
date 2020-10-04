@@ -17,12 +17,23 @@
 
 
 
-        <include
-            layout="@layout/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
 
-            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">
+            <include
+                layout="@layout/buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+
+                />
+        </LinearLayout>
+
 
 
 
